@@ -1,0 +1,48 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel="stylesheet", href="css/style.min.css")
+    script(defer="defer" src="main.min.js")
+  body 
+    header.header 
+      .container
+        .header__inner
+          .logo
+            a(href="#").logo-link
+              img(src="./images/logo/logo.png", alt="Logo").logo-img
+          nav.nav
+            ul.nav__menu
+              li.nav__menu-item
+                a(href="#").nav__menu-link Отделка лестниц
+              li.nav__menu-item
+                a.nav__menu-link Типы лестниц
+                ul.nav__submenu
+                  li.nav__submenu-item
+                    a(href="#").nav__submenu-link Прямая лестница
+                  li.nav__submenu-item
+                    a(href="#").nav__submenu-link Винтовая лестница
+                  li.nav__submenu-item
+                    a(href="#").nav__submenu-link Г - образная лестница
+                  li.nav__submenu-item
+                    a(href="#").nav__submenu-link П - образная лестница
+                  li.nav__submenu-item
+                    a(href="#").nav__submenu-link Забежная лестница
+                  li.nav__submenu-item
+                    a(href="#").nav__submenu-link Наружная фасадная лестница
+                  li.nav__submenu-item
+                    a(href="#").nav__submenu-link Индивидуальная
+              li.nav__menu-item
+                a(href="#").nav__menu-link Стоимость услуг
+              li.nav__menu-item
+                a(href="#").nav__menu-link Галерея работ
+              li.nav__menu-item
+                a(href="#").nav__menu-link Контакты
+            button.nav__consult-btn Бесплатная консультация
+    .wrapper
+      main.main
+
+      footer.footer

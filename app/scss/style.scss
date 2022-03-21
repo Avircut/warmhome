@@ -1,0 +1,65 @@
+@import 'vars';
+@import 'reset';
+@import 'global';
+@import 'fonts';
+
+// start header
+.header{
+  background-image: url(../images/header-bg.png);
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    @extend %AnPro-Regular;
+    &__menu{
+      margin-left:25px;
+      margin-right:31px;
+    }
+    &__menu-item{
+      margin-right:45px;
+      display: inline-block;
+    }
+    &__menu-link{
+      &:not(:only-child)::after{
+        content: "";
+        width:14px;
+        height:23px;
+        background: url(../images/icons/dropdown.png);
+        background-color: transparent;
+        margin-left: 6px;
+        display:inline-block;
+        background-repeat:no-repeat;
+        background-position:bottom;
+      }
+    }
+    &__consult-btn{
+      padding: 13px 19px 13px 20px;
+      background: transparent;
+      border: 1px solid $blue;
+      border-radius: 3px;
+      color:$text;
+      cursor: pointer;
+    }
+    &__submenu{
+      display: none;
+    }
+  }
+}
+.logo{
+  padding:10px 0;
+  &-link{
+    object-fit: cover;
+  }
+  &-img{
+    background-color: transparent;
+    width:111px;
+    height:70px;
+  }
+}
+// end header
+
+@import 'media';
