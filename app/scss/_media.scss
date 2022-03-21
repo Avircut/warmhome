@@ -1,3 +1,14 @@
-// @media(max-width: 1900px){
+@media(max-width: 1900px){
 
-// }
+}
+
+@media(max-width:1250px){
+  .header{
+    .burger{
+      display: flex;
+    }
+    .nav__menu{
+      display:none;
+    }
+  }
+}

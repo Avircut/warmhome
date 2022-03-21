@@ -6,38 +6,184 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.min.css">
-    <script defer="defer" src="main.min.js"></script>
+    <script defer="defer" src="js/main.min.js"></script>
   </head>
   <body> 
     <header class="header"> 
       <div class="container">
         <div class="header__inner">
-          <div class="logo"><a class="logo-link" href="#"><img class="logo-img" src="./images/logo/logo.png" alt="Logo"></a></div>
-          <nav class="nav">
-            <ul class="nav__menu">
-              <li class="nav__menu-item"><a class="nav__menu-link" href="#">Отделка лестниц</a></li>
-              <li class="nav__menu-item"><a class="nav__menu-link">Типы лестниц</a>
-                <ul class="nav__submenu">
-                  <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Прямая лестница</a></li>
-                  <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Винтовая лестница</a></li>
-                  <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Г - образная лестница</a></li>
-                  <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">П - образная лестница</a></li>
-                  <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Забежная лестница</a></li>
-                  <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Наружная фасадная лестница</a></li>
-                  <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Индивидуальная</a></li>
-                </ul>
-              </li>
-              <li class="nav__menu-item"><a class="nav__menu-link" href="#">Стоимость услуг</a></li>
-              <li class="nav__menu-item"><a class="nav__menu-link" href="#">Галерея работ</a></li>
-              <li class="nav__menu-item"><a class="nav__menu-link" href="#">Контакты</a></li>
+          <div class="header__top-line">
+            <div class="logo"><a class="logo-link" href="#"><img class="logo-img" src="./images/logo/logo.png" alt="Logo"></a></div>
+            <nav class="nav">
+              <ul class="nav__menu">
+                <li class="nav__menu-item"><a class="nav__menu-link" href="#">Отделка лестниц</a></li>
+                <li class="nav__menu-item"><a class="nav__menu-link">Типы лестниц</a>
+                  <ul class="nav__submenu">
+                    <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Прямая лестница</a></li>
+                    <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Винтовая лестница</a></li>
+                    <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Г - образная лестница</a></li>
+                    <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">П - образная лестница</a></li>
+                    <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Забежная лестница</a></li>
+                    <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Наружная фасадная лестница</a></li>
+                    <li class="nav__submenu-item"><a class="nav__submenu-link" href="#">Индивидуальная</a></li>
+                  </ul>
+                </li>
+                <li class="nav__menu-item"><a class="nav__menu-link" href="#">Стоимость услуг</a></li>
+                <li class="nav__menu-item"><a class="nav__menu-link" href="#">Галерея работ</a></li>
+                <li class="nav__menu-item"><a class="nav__menu-link" href="#">Контакты</a></li>
+              </ul>
+              <button class="nav__consult-btn consult-btn btn">Бесплатная консультация</button>
+            </nav>
+            <div class="burger"></div>
+            <div class="burger__menu-wrapper">
+              <ul class="burger__menu"></ul>
+            </div>
+          </div>
+          <div class="header__line">
+            <h1 class="header__line-title">Лестницы из бетона в Иркутске</h1>
+          </div>
+          <div class="header__desc">
+            <p class="header__desc-text">Преимущества лестниц из бетона - прочность и долговечность конструкции, что позволяет реализовать самые интересные идеи дизайнеров. Монолитные лестницы, дополненные изящной отделкой, становятся потрясающим украшение интерьера любого дома.</p>
+            <p class="header__desc-text">Наша компания предлагает вам услуги по изготовлению монолитных лестниц разных видов:</p>
+            <ul class="header__desc-list">
+              <li class="header__desc-list-item"><a class="header__desc-list-link" href="#">Прямая лестница</a></li>
+              <li class="header__desc-list-item"><a class="header__desc-list-link" href="#">Винтовая лестница</a></li>
+              <li class="header__desc-list-item"><a class="header__desc-list-link" href="#">Г - образная лестница</a></li>
+              <li class="header__desc-list-item"><a class="header__desc-list-link" href="#">П - образная лестница</a></li>
+              <li class="header__desc-list-item"><a class="header__desc-list-link" href="#">Забежная лестница</a></li>
+              <li class="header__desc-list-item"><a class="header__desc-list-link" href="#">Наружная фасадная лестница</a></li>
+              <li class="header__desc-list-item"><a class="header__desc-list-link" href="#">Индивидуальная</a></li>
             </ul>
-            <button class="nav__consult-btn">Бесплатная консультация</button>
-          </nav>
+          </div>
         </div>
       </div>
     </header>
     <div class="wrapper">
-      <main class="main"></main>
+      <main class="main">
+        <section class="benefits section">
+          <div class="container">
+            <div class="benefits__inner">
+              <h2 class="benefits__title title">Преимущества</h2>
+              <div class="benefits__desc">У нас огромный многолетний опыт и сотни довольных клиентов. Мы уверены в своём качестве, поэтому даем гарантию от 12 месяц, потому что знаем, что если на протяжении этого срока не возникли проблемы, то наши лестницы вам будут служить многие годы</div>
+              <div class="benefits__features">
+                <div class="benefits__item"><img class="benefits__item-img" src="images/icons/measure.png">
+                  <div class="benefits__item-title">Бесплатный замер</div>
+                  <div class="benefits__item-desc"></div>
+                </div>
+                <div class="benefits__item"><img class="benefits__item-img" src="images/icons/business-and-finance 1.png">
+                  <div class="benefits__item-title">Скидка 15%</div>
+                  <div class="benefits__item-desc">на заказ второй лестницы</div>
+                </div>
+                <div class="benefits__item"><img class="benefits__item-img" src="images/icons/stairs.png">
+                  <div class="benefits__item-title">Заливка преддомовых ступеней</div>
+                  <div class="benefits__item-desc">при заказе лестницы</div>
+                </div>
+              </div>
+              <div class="benefits__line line">
+                <p class="line-desc">В каждой работе есть свои нюансы и детали. Для более подробной информации свяжитесь с нашим специалистом или оставьте свои контактные данные и мы свяжемся с вами в ближайшее время!</p>
+                <div class="benefits__line-consult-btn consult-btn btn">Бесплатная консультация</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="types section">
+          <div class="container">
+            <div class="types__inner">
+              <div class="types__title title">Типы лестниц</div>
+              <div class="types__items">
+                <div class="types__item">
+                  <div class="types__side"><img class="types__item-image" src="../images/content/types-1.png"><img class="types__item-alt-img" src="../images/content/alt-types-1.png" alt=""></div>
+                  <div class="types__side">
+                    <div class="types__item-text">
+                      <div class="types__item-title">Прямая лестница</div>
+                      <div class="types__item-price">от 00 000 руб</div>
+                    </div>
+                    <button class="types__calc-btn btn">Рассчитать стоимость</button>
+                  </div>
+                </div>
+                <div class="types__item">
+                  <div class="types__side"><img class="types__item-image" src="../images/content/types-2.png"><img class="types__item-alt-img" src="../images/content/alt-types-2.png" alt=""></div>
+                  <div class="types__side">
+                    <div class="types__item-text">
+                      <div class="types__item-title">Винтовая лестница</div>
+                      <div class="types__item-price">от 00 000 руб</div>
+                    </div>
+                    <button class="types__calc-btn btn">Рассчитать стоимость</button>
+                  </div>
+                </div>
+                <div class="types__item">
+                  <div class="types__side"><img class="types__item-image" src="../images/content/types-3.png"><img class="types__item-alt-img" src="../images/content/alt-types-3.png" alt=""></div>
+                  <div class="types__side">
+                    <div class="types__item-text">
+                      <div class="types__item-title">Г - образная лестница</div>
+                      <div class="types__item-price">от 00 000 руб</div>
+                    </div>
+                    <button class="types__calc-btn btn">Рассчитать стоимость</button>
+                  </div>
+                </div>
+                <div class="types__item">
+                  <div class="types__side"><img class="types__item-image" src="../images/content/types-4.png"><img class="types__item-alt-img" src="../images/content/alt-types-4.png" alt=""></div>
+                  <div class="types__side">
+                    <div class="types__item-text">
+                      <div class="types__item-title">П - образная лестница</div>
+                      <div class="types__item-price">от 00 000 руб</div>
+                    </div>
+                    <button class="types__calc-btn btn">Рассчитать стоимость</button>
+                  </div>
+                </div>
+                <div class="types__item">
+                  <div class="types__side"><img class="types__item-image" src="../images/content/types-5.png"><img class="types__item-alt-img" src="../images/content/alt-types-5.png" alt=""></div>
+                  <div class="types__side">
+                    <div class="types__item-text">
+                      <div class="types__item-title">Забежная лестница</div>
+                      <div class="types__item-price">от 00 000 руб</div>
+                    </div>
+                    <button class="types__calc-btn btn">Рассчитать стоимость</button>
+                  </div>
+                </div>
+                <div class="types__item">
+                  <div class="types__side"><img class="types__item-image" src="../images/content/types-6.png"><img class="types__item-alt-img" src="../images/content/alt-types-6.png" alt=""></div>
+                  <div class="types__side">
+                    <div class="types__item-text">
+                      <div class="types__item-title">Наружная фасадная лестница</div>
+                      <div class="types__item-price">от 00 000 руб</div>
+                    </div>
+                    <button class="types__calc-btn btn">Рассчитать стоимость</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="types__line line">
+              <p class="line-desc">Так же вы можете заказать у нас дополнительно отделку лестницы штукатуркой, плиткой или терассной доской (стоимость зависит от выбранных материалов)</p>
+              <button class="types__line-btn btn">Подробнее про отделку</button>
+            </div>
+          </div>
+        </section>
+        <section class="prices section">
+          <div class="container">
+            <div class="prices__inner">
+              <h2 class="prices__title title">Стоимость услуг</h2>
+              <p class="prices__desc">На сайте указана приблезительная стоимость за изготовление лестниц <br>Точную сумму вы можете узнать после консультации с нашим специалистом - оставьте заявку и получите замер бесплатно</p>
+              <div class="prices__list">
+                <div class="prices__item">
+                  <div class="prices__name">Прямая лестница</div>
+                  <div class="prices__price">от 2500 руб за 1 ступень</div>
+                </div>
+                <div class="prices__item">
+                  <div class="prices__name">Винтовая лестница</div>
+                  <div class="prices__price">от 3000 руб за 1 ступень</div>
+                </div>
+                <div class="prices__item">
+                  <div class="prices__name">Отделочные работы</div>
+                  <div class="prices__price">от 500 руб за 1 кв/м</div>
+                </div>
+              </div>
+              <p class="prices__desc"></p>
+              <button class="prices__gift-btn btn">Получить подарок</button>
+            </div>
+          </div>
+        </section>
+      </main>
       <footer class="footer"></footer>
     </div>
   </body>

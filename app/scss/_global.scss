@@ -39,3 +39,32 @@ body {
     margin-bottom: 56px;
     max-width: fit-content;
 }
+.section{
+    padding-top: 40px;
+}
+.btn{
+    padding: 13px 19px 13px 20px;
+    background: transparent;
+    border: 1px solid $blue;
+    border-radius: 3px;
+    color:$text;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    &:hover{
+      color:$background;
+      background-color: $blue;
+    }
+}
+.line{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &-desc{
+      max-width: 983px;
+      font-size: 18px;
+      line-height: 25px;
+      padding-right: 25px;
+    }
+  }

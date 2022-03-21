@@ -6,43 +6,166 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Document
     link(rel="stylesheet", href="css/style.min.css")
-    script(defer="defer" src="main.min.js")
+    script(defer="defer" src="js/main.min.js")
   body 
     header.header 
       .container
         .header__inner
-          .logo
-            a(href="#").logo-link
-              img(src="./images/logo/logo.png", alt="Logo").logo-img
-          nav.nav
-            ul.nav__menu
-              li.nav__menu-item
-                a(href="#").nav__menu-link Отделка лестниц
-              li.nav__menu-item
-                a.nav__menu-link Типы лестниц
-                ul.nav__submenu
-                  li.nav__submenu-item
-                    a(href="#").nav__submenu-link Прямая лестница
-                  li.nav__submenu-item
-                    a(href="#").nav__submenu-link Винтовая лестница
-                  li.nav__submenu-item
-                    a(href="#").nav__submenu-link Г - образная лестница
-                  li.nav__submenu-item
-                    a(href="#").nav__submenu-link П - образная лестница
-                  li.nav__submenu-item
-                    a(href="#").nav__submenu-link Забежная лестница
-                  li.nav__submenu-item
-                    a(href="#").nav__submenu-link Наружная фасадная лестница
-                  li.nav__submenu-item
-                    a(href="#").nav__submenu-link Индивидуальная
-              li.nav__menu-item
-                a(href="#").nav__menu-link Стоимость услуг
-              li.nav__menu-item
-                a(href="#").nav__menu-link Галерея работ
-              li.nav__menu-item
-                a(href="#").nav__menu-link Контакты
-            button.nav__consult-btn Бесплатная консультация
+          .header__top-line
+            .logo
+              a(href="#").logo-link
+                img(src="./images/logo/logo.png", alt="Logo").logo-img
+            nav.nav
+              ul.nav__menu
+                li.nav__menu-item
+                  a(href="#").nav__menu-link Отделка лестниц
+                li.nav__menu-item
+                  a.nav__menu-link Типы лестниц
+                  ul.nav__submenu
+                    li.nav__submenu-item
+                      a(href="#").nav__submenu-link Прямая лестница
+                    li.nav__submenu-item
+                      a(href="#").nav__submenu-link Винтовая лестница
+                    li.nav__submenu-item
+                      a(href="#").nav__submenu-link Г - образная лестница
+                    li.nav__submenu-item
+                      a(href="#").nav__submenu-link П - образная лестница
+                    li.nav__submenu-item
+                      a(href="#").nav__submenu-link Забежная лестница
+                    li.nav__submenu-item
+                      a(href="#").nav__submenu-link Наружная фасадная лестница
+                    li.nav__submenu-item
+                      a(href="#").nav__submenu-link Индивидуальная
+                li.nav__menu-item
+                  a(href="#").nav__menu-link Стоимость услуг
+                li.nav__menu-item
+                  a(href="#").nav__menu-link Галерея работ
+                li.nav__menu-item
+                  a(href="#").nav__menu-link Контакты
+              button.nav__consult-btn.consult-btn.btn Бесплатная консультация
+            .burger
+            .burger__menu-wrapper
+              ul.burger__menu
+          .header__line
+            h1.header__line-title Лестницы из бетона в Иркутске
+          .header__desc
+            p.header__desc-text Преимущества лестниц из бетона - прочность и долговечность конструкции, что позволяет реализовать самые интересные идеи дизайнеров. Монолитные лестницы, дополненные изящной отделкой, становятся потрясающим украшение интерьера любого дома.
+            p.header__desc-text Наша компания предлагает вам услуги по изготовлению монолитных лестниц разных видов:
+            ul.header__desc-list
+              li.header__desc-list-item
+                a(href="#").header__desc-list-link Прямая лестница
+              li.header__desc-list-item
+                a(href="#").header__desc-list-link Винтовая лестница
+              li.header__desc-list-item
+                a(href="#").header__desc-list-link Г - образная лестница
+              li.header__desc-list-item
+                a(href="#").header__desc-list-link П - образная лестница
+              li.header__desc-list-item
+                a(href="#").header__desc-list-link Забежная лестница
+              li.header__desc-list-item
+                a(href="#").header__desc-list-link Наружная фасадная лестница
+              li.header__desc-list-item
+                a(href="#").header__desc-list-link Индивидуальная
     .wrapper
       main.main
-
+        section.benefits.section
+          .container
+            .benefits__inner
+              h2.benefits__title.title Преимущества
+              .benefits__desc У нас огромный многолетний опыт и сотни довольных клиентов. Мы уверены в своём качестве, поэтому даем гарантию от 12 месяц, потому что знаем, что если на протяжении этого срока не возникли проблемы, то наши лестницы вам будут служить многие годы
+              .benefits__features
+                .benefits__item
+                  img(src="images/icons/measure.png").benefits__item-img
+                  .benefits__item-title Бесплатный замер
+                  .benefits__item-desc
+                .benefits__item
+                  img(src="images/icons/business-and-finance 1.png").benefits__item-img
+                  .benefits__item-title Скидка 15%
+                  .benefits__item-desc на заказ второй лестницы
+                .benefits__item
+                  img(src="images/icons/stairs.png").benefits__item-img
+                  .benefits__item-title Заливка преддомовых ступеней
+                  .benefits__item-desc при заказе лестницы
+              .benefits__line.line
+                p.line-desc В каждой работе есть свои нюансы и детали. Для более подробной информации свяжитесь с нашим специалистом или оставьте свои контактные данные и мы свяжемся с вами в ближайшее время!
+                .benefits__line-consult-btn.consult-btn.btn Бесплатная консультация
+        section.types.section
+          .container
+            .types__inner
+              .types__title.title Типы лестниц
+              .types__items
+                .types__item
+                  .types__side
+                    img(src="../images/content/types-1.png").types__item-image
+                    img(src="../images/content/alt-types-1.png", alt="").types__item-alt-img
+                  .types__side
+                    .types__item-text
+                      .types__item-title Прямая лестница
+                      .types__item-price от 00 000 руб
+                    button.types__calc-btn.btn Рассчитать стоимость
+                .types__item
+                  .types__side
+                    img(src="../images/content/types-2.png").types__item-image
+                    img(src="../images/content/alt-types-2.png", alt="").types__item-alt-img
+                  .types__side
+                    .types__item-text
+                      .types__item-title Винтовая лестница
+                      .types__item-price от 00 000 руб
+                    button.types__calc-btn.btn Рассчитать стоимость
+                .types__item
+                  .types__side
+                    img(src="../images/content/types-3.png").types__item-image
+                    img(src="../images/content/alt-types-3.png", alt="").types__item-alt-img
+                  .types__side
+                    .types__item-text
+                      .types__item-title Г - образная лестница
+                      .types__item-price от 00 000 руб
+                    button.types__calc-btn.btn Рассчитать стоимость
+                .types__item
+                  .types__side
+                    img(src="../images/content/types-4.png").types__item-image
+                    img(src="../images/content/alt-types-4.png", alt="").types__item-alt-img
+                  .types__side
+                    .types__item-text
+                      .types__item-title П - образная лестница
+                      .types__item-price от 00 000 руб
+                    button.types__calc-btn.btn Рассчитать стоимость
+                .types__item
+                  .types__side
+                    img(src="../images/content/types-5.png").types__item-image
+                    img(src="../images/content/alt-types-5.png", alt="").types__item-alt-img
+                  .types__side
+                    .types__item-text
+                      .types__item-title Забежная лестница
+                      .types__item-price от 00 000 руб
+                    button.types__calc-btn.btn Рассчитать стоимость
+                .types__item
+                  .types__side
+                    img(src="../images/content/types-6.png").types__item-image
+                    img(src="../images/content/alt-types-6.png", alt="").types__item-alt-img
+                  .types__side
+                    .types__item-text
+                      .types__item-title Наружная фасадная лестница
+                      .types__item-price от 00 000 руб
+                    button.types__calc-btn.btn Рассчитать стоимость
+            .types__line.line
+              p.line-desc Так же вы можете заказать у нас дополнительно отделку лестницы штукатуркой, плиткой или терассной доской (стоимость зависит от выбранных материалов)
+              button.types__line-btn.btn Подробнее про отделку
+        section.prices.section
+          .container
+            .prices__inner
+              h2.prices__title.title Стоимость услуг
+              p.prices__desc На сайте указана приблезительная стоимость за изготовление лестниц <br>Точную сумму вы можете узнать после консультации с нашим специалистом - оставьте заявку и получите замер бесплатно
+              .prices__list
+                .prices__item
+                  .prices__name Прямая лестница
+                  .prices__price от 2500 руб за 1 ступень
+                .prices__item
+                  .prices__name Винтовая лестница
+                  .prices__price от 3000 руб за 1 ступень
+                .prices__item
+                  .prices__name Отделочные работы
+                  .prices__price от 500 руб за 1 кв/м
+              p.prices__desc
+              button.prices__gift-btn.btn Получить подарок
       footer.footer
