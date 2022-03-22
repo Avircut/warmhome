@@ -1,0 +1,155 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel="stylesheet", href="css/style.min.css")
+    script(defer="defer" src="js/main.min.js")
+  body.single
+    header.header 
+      .container
+        .header__inner
+          .header__top-line
+            .logo
+              a(href="/").logo-link
+                img(src="./images/logo/logo.png", alt="Logo").logo-img
+            nav.nav
+              ul.nav__menu
+                li.nav__menu-item
+                  a(href="facing.html").nav__menu-link Отделка лестниц
+                li.nav__menu-item
+                  a.nav__menu-link Типы лестниц
+                  ul.nav__submenu
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Прямая лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Винтовая лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Г - образная лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link П - образная лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Забежная лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Наружная фасадная лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Индивидуальная
+                li.nav__menu-item
+                  a(href="#").nav__menu-link Стоимость услуг
+                li.nav__menu-item
+                  a(href="#").nav__menu-link Галерея работ
+                li.nav__menu-item
+                  a(href="#").nav__menu-link Контакты
+              button.nav__consult-btn.consult-btn.btn Бесплатная консультация
+            .burger
+            .burger__menu-wrapper
+              ul.burger__menu
+          .header__top-banner
+            .header__line
+              h1.header__line-title Прямая лестница
+            img.header__main-img(src="../images/content/article-1.jpg", alt="")
+            .header__desc
+              p.header__desc-text.default-text Прямая лестница это безусловно, самый распространённый вариант среди всех типов лестниц. Но только этот вариант позволяет максимально быстро и удобно подняться на этаж выше.<br><br> Они отлично сочетаются с минималистичным дизайном вашего дома. Простота и надёжность конструкции - её неоспоримые преимущества.<br><br> Вы можете прилично сэкономить на количестве материалов и времени её изготовления.<br><br><br><br> Стоимость от 2500 руб за 1 ступень
+              button.header__home-btn.btn На главную страницу
+          p.header__text.default-text Мы можем возвести лестницу с поворотом на 90 ИЛИ 180 градусов. Их называют Г-образной и П - образной. Такие лестница, как правило, занимают один из углов дома и не привлекают особого внимания к себе.
+    .wrapper
+      main.main
+        .gallery-mini
+          .container
+            .gallery-mini__inner
+              .gallery-mini__slider
+                .gallery-mini__item
+                  img(src="../images/content/stairs-1.png", alt="").gallery-mini__img
+                .gallery-mini__item
+                  img(src="../images/content/stairs-2.png", alt="").gallery-mini__img
+                .gallery-mini__item
+                  img(src="../images/content/stairs-3.png", alt="").gallery-mini__img
+                .gallery-mini__item
+                  img(src="../images/content/stairs-1.png", alt="").gallery-mini__img
+                .gallery-mini__item
+                  img(src="../images/content/stairs-2.png", alt="").gallery-mini__img
+                .gallery-mini__item
+                  img(src="../images/content/stairs-3.png", alt="").gallery-mini__img
+                .gallery-mini__item
+                  img(src="../images/content/stairs-1.png", alt="").gallery-mini__img
+                .gallery-mini__item
+                  img(src="../images/content/stairs-2.png", alt="").gallery-mini__img
+                .gallery-mini__item
+                  img(src="../images/content/stairs-3.png", alt="").gallery-mini__img
+            p.gallery-mini__text.default-text Под конструкцией, при желании, вы всегда сможете использовать свободное пространство для хранения вещей либо обставить подходящей мебелью. Г-образная лестница очень удобная, ведь на площадке всегда можно передохнуть, особенно это важно, когда в помещении проживают пожилые люди.
+          
+        section.contact.section
+          .container
+            .contact__inner
+              .contact__title.title Свяжитесь с нами
+              form.contact__form
+                .contact__form-side
+                  input(type="text" placeholder="Имя").contact__form-input
+                  input(type="text" placeholder="Номер телефона").contact__form-input
+                  input(type="email" placeholder="Email").contact__form-input
+                .contact__form-side
+                  input(type="text" placeholder="Сообщение").contact__form-input
+                  button.contact__form-btn.btn Отправить заявку
+              .contact__bot-line.bot-line
+                .bot-line__contacts
+                  a(href="tel:+7(800)1234567").bot-line__phone.phone.default-text 8 800 123 45 67
+                  a(href="mailto:lomoff.slaw@yandex.ru").bot-line__email.email.default-text Email
+                .bot-line__social
+                  a(href="#").bot-line__social-link
+                    img(src="../images/icons/whatsup.png", alt="").bot-line__social-img
+                  a(href="#").bot-line__social-link
+                    img(src="../images/icons/vk.png", alt="").bot-line__social-img
+      footer.footer
+        .container
+          .footer__inner
+            .footer__address
+              a(href="#").footer__logo-link
+                img(src="../images/logo/logo.png", alt="").footer__logo-img
+              ul.footer__address-list
+                li.footer__address-item г. Иркутск, ул. Ленина, 11
+                li.footer__address-item Режим работы: 10.00 - 18.00
+                li.footer__address-item ИНН 868693483486913
+                li.footer__address-item Работаем по Иркутску и Иркутской области
+            ul.footer__menu-list
+              li.footer__menu-item
+                a(href="#").footer__menu-link Отделка лестниц
+                ul.footer__submenu-list
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Штукатурка
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Плитка
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Терассная доска
+              li.footer__menu-item
+                a(href="#").footer__menu-link Типы лестниц
+                ul.footer__submenu-list
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Прямая лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Винтовая лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Г - образная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link П - образная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Забежная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Наружная фасадная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Индивидуальная
+              li.footer__menu-item
+                a(href="#").footer__menu-link Стоимость услуг
+              li.footer__menu-item
+                a(href="#").footer__menu-link Галерея работ
+              li.footer__menu-item.footer__menu-item_contacts
+                a(href="#").footer__menu-link Контакты
+                a(href="tel:+7(800)1234567").footer__phone.phone 8 800 123 45 67
+                a(href="mailto:lomoff.slaw@yandex.ru").footer__email.email E - mail
+                .footer__social
+                  a(href="#").footer__social-link
+                    img(src="../images/icons/footer__whatsapp.png", alt="").footer__social-img
+                  a(href="#").footer__social-link
+                    img(src="../images/icons/footer__vk.png", alt="").footer__social-img
+              

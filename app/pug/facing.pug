@@ -1,0 +1,161 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel="stylesheet", href="css/style.min.css")
+    script(defer="defer" src="js/main.min.js")
+  body.single
+    header.header 
+      .container
+        .header__inner
+          .header__top-line
+            .logo
+              a(href="/").logo-link
+                img(src="./images/logo/logo.png", alt="Logo").logo-img
+            nav.nav
+              ul.nav__menu
+                li.nav__menu-item
+                  a(href="facing.html").nav__menu-link Отделка лестниц
+                li.nav__menu-item
+                  a.nav__menu-link Типы лестниц
+                  ul.nav__submenu
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Прямая лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Винтовая лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Г - образная лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link П - образная лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Забежная лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Наружная фасадная лестница
+                    li.nav__submenu-item
+                      a(href="stairs.html").nav__submenu-link Индивидуальная
+                li.nav__menu-item
+                  a(href="#").nav__menu-link Стоимость услуг
+                li.nav__menu-item
+                  a(href="404.html").nav__menu-link Галерея работ
+                li.nav__menu-item
+                  a(href="#").nav__menu-link Контакты
+              button.nav__consult-btn.consult-btn.btn Бесплатная консультация
+            .burger
+            .burger__menu-wrapper
+              ul.burger__menu
+          .header__top-banner
+            .header__line
+              h1.header__line-title Отделочные работы
+            img.header__main-img(src="../images/content/article-2.jpg", alt="")
+            .header__desc
+              p.header__desc-text.default-text Сделать надёжную и практичную лестницу это ещё не всё!<br><br>Не маловажную роль играет эстетическая часть. Именно отделка лестницы позволяет вам восхищаться конструкцией и ловить восторженные взгляды гостей.<br>У нас имеется большой опыт в реализации смелых и интересных идей. А наши сотрудники с радостью помогут создать неповторимый образ вашей лестницы.<br><br>Важно не упустить подготовительный этап перед отделкой: какой бы материал вы не выбрали, бетонную поверхность необходимо выровнять.<br><br><br><br>Стоимость работы от 500 руб за 1 кв/м
+              button.header__home-btn.btn На главную страницу
+          p.header__text.default-text Мы работаем с самыми популярными материалами для отделки лестниц и предлагаем вам ознакомиться с ними.
+    .wrapper
+      main.main
+        section.plaster.section
+          .container
+            .plaster__inner
+              h2.plaster__title.title Штукатурка
+              p.plaster__desc.default-text На сайте указана приблезительная стоимость за изготовление лестниц <br>Точную сумму вы можете узнать после консультации с нашим специалистом - оставьте заявку и получите замер бесплатно
+              .plaster__images
+                img.plaster__img(src="../images/content/plaster-1.jpg", alt="")
+                img.plaster__img(src="../images/content/plaster-2.jpg", alt="")
+                img.plaster__img(src="../images/content/plaster-3.jpg", alt="")
+              p.plaster__priceoff.default-text Получите скидку 15% на покупку второй лестницы <br>При заказе лестницы мы готовы подарить вам наши услуги по заливке преддомовых ступеней
+        section.plaster.section
+          .container
+            .plaster__inner
+              h2.plaster__title.title Плитка
+              p.plaster__desc.default-text На сайте указана приблезительная стоимость за изготовление лестниц <br>Точную сумму вы можете узнать после консультации с нашим специалистом - оставьте заявку и получите замер бесплатно
+              .plaster__images
+                img.plaster__img(src="../images/content/plates-1.jpg", alt="")
+                img.plaster__img(src="../images/content/plates-2.jpg", alt="")
+                img.plaster__img(src="../images/content/plates-3.jpg", alt="")
+              p.plaster__priceoff.default-text Получите скидку 15% на покупку второй лестницы <br>При заказе лестницы мы готовы подарить вам наши услуги по заливке преддомовых ступеней
+        section.plaster.section
+          .container
+            .plaster__inner
+              h2.plaster__title.title Терассная доска
+              p.plaster__desc.default-text На сайте указана приблезительная стоимость за изготовление лестниц <br>Точную сумму вы можете узнать после консультации с нашим специалистом - оставьте заявку и получите замер бесплатно
+              .plaster__images
+                img.plaster__img(src="../images/content/woods-1.jpg", alt="")
+                img.plaster__img(src="../images/content/woods-2.jpg", alt="")
+                img.plaster__img(src="../images/content/woods-3.jpg", alt="")
+              p.plaster__priceoff.default-text Получите скидку 15% на покупку второй лестницы <br>При заказе лестницы мы готовы подарить вам наши услуги по заливке преддомовых ступеней
+        section.contact.section
+          .container
+            .contact__inner
+              h2.contact__title.title Свяжитесь с нами
+              form.contact__form
+                .contact__form-side
+                  input(type="text" placeholder="Имя").contact__form-input
+                  input(type="text" placeholder="Номер телефона").contact__form-input
+                  input(type="email" placeholder="Email").contact__form-input
+                .contact__form-side
+                  input(type="text" placeholder="Сообщение").contact__form-input
+                  button.contact__form-btn.btn Отправить заявку
+              .contact__bot-line.bot-line
+                .bot-line__contacts
+                  a(href="tel:+7(800)1234567").bot-line__phone.phone.default-text 8 800 123 45 67
+                  a(href="mailto:lomoff.slaw@yandex.ru").bot-line__email.email.default-text Email
+                .bot-line__social
+                  a(href="#").bot-line__social-link
+                    img(src="../images/icons/whatsup.png", alt="").bot-line__social-img
+                  a(href="#").bot-line__social-link
+                    img(src="../images/icons/vk.png", alt="").bot-line__social-img
+      footer.footer
+        .container
+          .footer__inner
+            .footer__address
+              a(href="#").footer__logo-link
+                img(src="../images/logo/logo.png", alt="").footer__logo-img
+              ul.footer__address-list
+                li.footer__address-item г. Иркутск, ул. Ленина, 11
+                li.footer__address-item Режим работы: 10.00 - 18.00
+                li.footer__address-item ИНН 868693483486913
+                li.footer__address-item Работаем по Иркутску и Иркутской области
+            ul.footer__menu-list
+              li.footer__menu-item
+                a(href="#").footer__menu-link Отделка лестниц
+                ul.footer__submenu-list
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Штукатурка
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Плитка
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Терассная доска
+              li.footer__menu-item
+                a(href="#").footer__menu-link Типы лестниц
+                ul.footer__submenu-list
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Прямая лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Винтовая лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Г - образная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link П - образная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Забежная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Наружная фасадная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Индивидуальная
+              li.footer__menu-item
+                a(href="#").footer__menu-link Стоимость услуг
+              li.footer__menu-item
+                a(href="#").footer__menu-link Галерея работ
+              li.footer__menu-item.footer__menu-item_contacts
+                a(href="#").footer__menu-link Контакты
+                a(href="tel:+7(800)1234567").footer__phone.phone 8 800 123 45 67
+                a(href="mailto:lomoff.slaw@yandex.ru").footer__email.email E - mail
+                .footer__social
+                  a(href="#").footer__social-link
+                    img(src="../images/icons/footer__whatsapp.png", alt="").footer__social-img
+                  a(href="#").footer__social-link
+                    img(src="../images/icons/footer__vk.png", alt="").footer__social-img
+              

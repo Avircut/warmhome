@@ -13,29 +13,29 @@ html(lang="en")
         .header__inner
           .header__top-line
             .logo
-              a(href="#").logo-link
+              a(href="index.html").logo-link
                 img(src="./images/logo/logo.png", alt="Logo").logo-img
             nav.nav
               ul.nav__menu
                 li.nav__menu-item
-                  a(href="#").nav__menu-link Отделка лестниц
+                  a(href="facing.html").nav__menu-link Отделка лестниц
                 li.nav__menu-item
                   a.nav__menu-link Типы лестниц
                   ul.nav__submenu
                     li.nav__submenu-item
-                      a(href="#").nav__submenu-link Прямая лестница
+                      a(href="stairs.html").nav__submenu-link Прямая лестница
                     li.nav__submenu-item
-                      a(href="#").nav__submenu-link Винтовая лестница
+                      a(href="stairs.html").nav__submenu-link Винтовая лестница
                     li.nav__submenu-item
-                      a(href="#").nav__submenu-link Г - образная лестница
+                      a(href="stairs.html").nav__submenu-link Г - образная лестница
                     li.nav__submenu-item
-                      a(href="#").nav__submenu-link П - образная лестница
+                      a(href="stairs.html").nav__submenu-link П - образная лестница
                     li.nav__submenu-item
-                      a(href="#").nav__submenu-link Забежная лестница
+                      a(href="stairs.html").nav__submenu-link Забежная лестница
                     li.nav__submenu-item
-                      a(href="#").nav__submenu-link Наружная фасадная лестница
+                      a(href="stairs.html").nav__submenu-link Наружная фасадная лестница
                     li.nav__submenu-item
-                      a(href="#").nav__submenu-link Индивидуальная
+                      a(href="stairs.html").nav__submenu-link Индивидуальная
                 li.nav__menu-item
                   a(href="#").nav__menu-link Стоимость услуг
                 li.nav__menu-item
@@ -49,23 +49,23 @@ html(lang="en")
           .header__line
             h1.header__line-title Лестницы из бетона в Иркутске
           .header__desc
-            p.header__desc-text Преимущества лестниц из бетона - прочность и долговечность конструкции, что позволяет реализовать самые интересные идеи дизайнеров. Монолитные лестницы, дополненные изящной отделкой, становятся потрясающим украшение интерьера любого дома.
-            p.header__desc-text Наша компания предлагает вам услуги по изготовлению монолитных лестниц разных видов:
-            ul.header__desc-list
+            p.header__desc-text.default-text Преимущества лестниц из бетона - прочность и долговечность конструкции, что позволяет реализовать самые интересные идеи дизайнеров. Монолитные лестницы, дополненные изящной отделкой, становятся потрясающим украшение интерьера любого дома.
+            p.header__desc-text.default-text Наша компания предлагает вам услуги по изготовлению монолитных лестниц разных видов:
+            ul.header__desc-list.slideRight
               li.header__desc-list-item
-                a(href="#").header__desc-list-link Прямая лестница
+                a(href="#").header__desc-list-link.default-text Прямая лестница
               li.header__desc-list-item
-                a(href="#").header__desc-list-link Винтовая лестница
+                a(href="#").header__desc-list-link.default-text Винтовая лестница
               li.header__desc-list-item
-                a(href="#").header__desc-list-link Г - образная лестница
+                a(href="#").header__desc-list-link.default-text Г - образная лестница
               li.header__desc-list-item
-                a(href="#").header__desc-list-link П - образная лестница
+                a(href="#").header__desc-list-link.default-text П - образная лестница
               li.header__desc-list-item
-                a(href="#").header__desc-list-link Забежная лестница
+                a(href="#").header__desc-list-link.default-text Забежная лестница
               li.header__desc-list-item
-                a(href="#").header__desc-list-link Наружная фасадная лестница
+                a(href="#").header__desc-list-link.default-text Наружная фасадная лестница
               li.header__desc-list-item
-                a(href="#").header__desc-list-link Индивидуальная
+                a(href="#").header__desc-list-link.default-text Индивидуальная
     .wrapper
       main.main
         section.benefits.section
@@ -74,98 +74,246 @@ html(lang="en")
               h2.benefits__title.title Преимущества
               .benefits__desc У нас огромный многолетний опыт и сотни довольных клиентов. Мы уверены в своём качестве, поэтому даем гарантию от 12 месяц, потому что знаем, что если на протяжении этого срока не возникли проблемы, то наши лестницы вам будут служить многие годы
               .benefits__features
-                .benefits__item
+                .benefits__item.slideLeft
                   img(src="images/icons/measure.png").benefits__item-img
                   .benefits__item-title Бесплатный замер
                   .benefits__item-desc
-                .benefits__item
+                .benefits__item.slideBottom
                   img(src="images/icons/business-and-finance 1.png").benefits__item-img
                   .benefits__item-title Скидка 15%
                   .benefits__item-desc на заказ второй лестницы
-                .benefits__item
+                .benefits__item.slideRight
                   img(src="images/icons/stairs.png").benefits__item-img
                   .benefits__item-title Заливка преддомовых ступеней
                   .benefits__item-desc при заказе лестницы
               .benefits__line.line
-                p.line-desc В каждой работе есть свои нюансы и детали. Для более подробной информации свяжитесь с нашим специалистом или оставьте свои контактные данные и мы свяжемся с вами в ближайшее время!
+                p.line__desc.default-text В каждой работе есть свои нюансы и детали. Для более подробной информации свяжитесь с нашим специалистом или оставьте свои контактные данные и мы свяжемся с вами в ближайшее время!
                 .benefits__line-consult-btn.consult-btn.btn Бесплатная консультация
         section.types.section
           .container
             .types__inner
               .types__title.title Типы лестниц
               .types__items
-                .types__item
+                .types__item.slideBottom
                   .types__side
                     img(src="../images/content/types-1.png").types__item-image
                     img(src="../images/content/alt-types-1.png", alt="").types__item-alt-img
                   .types__side
                     .types__item-text
-                      .types__item-title Прямая лестница
-                      .types__item-price от 00 000 руб
+                      h3.types__item-title.default-text Прямая лестница
+                      span.types__item-price.default-text от 00 000 руб
                     button.types__calc-btn.btn Рассчитать стоимость
-                .types__item
+                .types__item.slideBottom
                   .types__side
                     img(src="../images/content/types-2.png").types__item-image
                     img(src="../images/content/alt-types-2.png", alt="").types__item-alt-img
                   .types__side
                     .types__item-text
-                      .types__item-title Винтовая лестница
-                      .types__item-price от 00 000 руб
+                      h3.types__item-title.default-text Винтовая лестница
+                      span.types__item-price.default-text от 00 000 руб
                     button.types__calc-btn.btn Рассчитать стоимость
-                .types__item
+                .types__item.slideBottom
                   .types__side
                     img(src="../images/content/types-3.png").types__item-image
                     img(src="../images/content/alt-types-3.png", alt="").types__item-alt-img
                   .types__side
                     .types__item-text
-                      .types__item-title Г - образная лестница
-                      .types__item-price от 00 000 руб
+                      h3.types__item-title.default-text Г - образная лестница
+                      span.types__item-price.default-text от 00 000 руб
                     button.types__calc-btn.btn Рассчитать стоимость
-                .types__item
+                .types__item.slideBottom
                   .types__side
                     img(src="../images/content/types-4.png").types__item-image
                     img(src="../images/content/alt-types-4.png", alt="").types__item-alt-img
                   .types__side
                     .types__item-text
-                      .types__item-title П - образная лестница
-                      .types__item-price от 00 000 руб
+                      h3.types__item-title.default-text П - образная лестница
+                      span.types__item-price.default-text от 00 000 руб
                     button.types__calc-btn.btn Рассчитать стоимость
-                .types__item
+                .types__item.slideBottom
                   .types__side
                     img(src="../images/content/types-5.png").types__item-image
                     img(src="../images/content/alt-types-5.png", alt="").types__item-alt-img
                   .types__side
                     .types__item-text
-                      .types__item-title Забежная лестница
-                      .types__item-price от 00 000 руб
+                      h3.types__item-title.default-text Забежная лестница
+                      span.types__item-price.default-text от 00 000 руб
                     button.types__calc-btn.btn Рассчитать стоимость
-                .types__item
+                .types__item.slideBottom
                   .types__side
                     img(src="../images/content/types-6.png").types__item-image
                     img(src="../images/content/alt-types-6.png", alt="").types__item-alt-img
                   .types__side
                     .types__item-text
-                      .types__item-title Наружная фасадная лестница
-                      .types__item-price от 00 000 руб
+                      h3.types__item-title.default-text Наружная фасадная лестница
+                      span.types__item-price.default-text от 00 000 руб
                     button.types__calc-btn.btn Рассчитать стоимость
             .types__line.line
-              p.line-desc Так же вы можете заказать у нас дополнительно отделку лестницы штукатуркой, плиткой или терассной доской (стоимость зависит от выбранных материалов)
+              p.line__desc.default-text Так же вы можете заказать у нас дополнительно отделку лестницы штукатуркой, плиткой или терассной доской (стоимость зависит от выбранных материалов)
               button.types__line-btn.btn Подробнее про отделку
         section.prices.section
           .container
             .prices__inner
-              h2.prices__title.title Стоимость услуг
-              p.prices__desc На сайте указана приблезительная стоимость за изготовление лестниц <br>Точную сумму вы можете узнать после консультации с нашим специалистом - оставьте заявку и получите замер бесплатно
-              .prices__list
+              h2.prices__title.title.slideBottom Стоимость услуг
+              p.prices__desc.default-text.slideBottom На сайте указана приблезительная стоимость за изготовление лестниц <br>Точную сумму вы можете узнать после консультации с нашим специалистом - оставьте заявку и получите замер бесплатно
+              .prices__list.slideBottom
                 .prices__item
-                  .prices__name Прямая лестница
-                  .prices__price от 2500 руб за 1 ступень
+                  .prices__name.default-text Прямая лестница
+                  .prices__price.default-text от 2500 руб за 1 ступень
                 .prices__item
-                  .prices__name Винтовая лестница
-                  .prices__price от 3000 руб за 1 ступень
+                  .prices__name.default-text Винтовая лестница
+                  .prices__price.default-text от 3000 руб за 1 ступень
                 .prices__item
-                  .prices__name Отделочные работы
-                  .prices__price от 500 руб за 1 кв/м
+                  .prices__name.default-text Отделочные работы
+                  .prices__price.default-text от 500 руб за 1 кв/м
               p.prices__desc
               button.prices__gift-btn.btn Получить подарок
+        section.contact.section
+          .container
+            .contact__inner
+              .contact__title.title Свяжитесь с нами
+              form.contact__form
+                .contact__form-side
+                  input(type="text" placeholder="Имя").contact__form-input
+                  input(type="text" placeholder="Номер телефона").contact__form-input
+                  input(type="email" placeholder="Email").contact__form-input
+                .contact__form-side
+                  input(type="text" placeholder="Сообщение").contact__form-input
+                  button.contact__form-btn.btn Отправить заявку
+              .contact__bot-line.bot-line
+                .bot-line__contacts
+                  a(href="tel:+7(800)1234567").bot-line__phone.phone.default-text 8 800 123 45 67
+                  a(href="mailto:lomoff.slaw@yandex.ru").bot-line__email.email.default-text Email
+                .bot-line__social
+                  a(href="#").bot-line__social-link
+                    img(src="../images/icons/whatsup.png", alt="").bot-line__social-img
+                  a(href="#").bot-line__social-link
+                    img(src="../images/icons/vk.png", alt="").bot-line__social-img
+        section.gallery.section
+          .container
+            .gallery__inner
+              .gallery__title.title Галерея работ
+              .gallery__items
+                .gallery__item.gallery-item.slideLeft
+                  img(src="../images/content/gallery-1.png").gallery-item__img
+                  .gallery-item__text
+                    h4.gallery-item__name Винтовая лестница для офисного здания с отделкой плиткой
+                    .gallery-item__desc
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Срок выполнения
+                        span.gallery-item__desc-price 56 дней
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Стоимость материалов
+                        span.gallery-item__desc-price 100 000р
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Стоимость работ
+                        span.gallery-item__desc-price 100 000р
+                      .gallery-item__desc-item.gallery-item__desc-item_total
+                        span.gallery-item__desc-name Итого
+                        span.gallery-item__desc-price 200 000р
+                .gallery__item.gallery-item.slideRight
+                  img(src="../images/content/gallery-2.png").gallery-item__img
+                  .gallery-item__text
+                    h4.gallery-item__name Описание проекта
+                    .gallery-item__desc
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Срок выполнения
+                        span.gallery-item__desc-price 56 дней
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Стоимость материалов
+                        span.gallery-item__desc-price 100 000р
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Стоимость работ
+                        span.gallery-item__desc-price 100 000р
+                      .gallery-item__desc-item.gallery-item__desc-item_total
+                        span.gallery-item__desc-name Итого
+                        span.gallery-item__desc-price 200 000р
+                .gallery__item.gallery-item.slideLeft
+                  img(src="../images/content/gallery-3.png").gallery-item__img
+                  .gallery-item__text
+                    h4.gallery-item__name Описание проекта
+                    .gallery-item__desc
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Срок выполнения
+                        span.gallery-item__desc-price 56 дней
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Стоимость материалов
+                        span.gallery-item__desc-price 100 000р
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Стоимость работ
+                        span.gallery-item__desc-price 100 000р
+                      .gallery-item__desc-item.gallery-item__desc-item_total
+                        span.gallery-item__desc-name Итого
+                        span.gallery-item__desc-price 200 000р
+                .gallery__item.gallery-item.slideRight
+                  img(src="../images/content/gallery-4.png").gallery-item__img
+                  .gallery-item__text
+                    h4.gallery-item__name Описание проекта
+                    .gallery-item__desc
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Срок выполнения
+                        span.gallery-item__desc-price 56 дней
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Стоимость материалов
+                        span.gallery-item__desc-price 100 000р
+                      .gallery-item__desc-item
+                        span.gallery-item__desc-name Стоимость работ
+                        span.gallery-item__desc-price 100 000р
+                      .gallery-item__desc-item.gallery-item__desc-item_total
+                        span.gallery-item__desc-name Итого
+                        span.gallery-item__desc-price 200 000р
+              .gallery__bot-line
+                a(href="#").gallery__bot-line-link РАЗРАБОТКА САЙТА BY AVIRCUT
+                button.gallery__bot-line-btn.btn Смотреть другие работы
       footer.footer
+        .container
+          .footer__inner
+            .footer__address
+              a(href="#").footer__logo-link
+                img(src="../images/logo/logo.png", alt="").footer__logo-img
+              ul.footer__address-list
+                li.footer__address-item г. Иркутск, ул. Ленина, 11
+                li.footer__address-item Режим работы: 10.00 - 18.00
+                li.footer__address-item ИНН 868693483486913
+                li.footer__address-item Работаем по Иркутску и Иркутской области
+            ul.footer__menu-list
+              li.footer__menu-item
+                a(href="#").footer__menu-link Отделка лестниц
+                ul.footer__submenu-list
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Штукатурка
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Плитка
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Терассная доска
+              li.footer__menu-item
+                a(href="#").footer__menu-link Типы лестниц
+                ul.footer__submenu-list
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Прямая лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Винтовая лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Г - образная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link П - образная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Забежная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Наружная фасадная лестница
+                  li.footer__submenu-item
+                    a(href="#").footer__submenu-link Индивидуальная
+              li.footer__menu-item
+                a(href="#").footer__menu-link Стоимость услуг
+              li.footer__menu-item
+                a(href="#").footer__menu-link Галерея работ
+              li.footer__menu-item.footer__menu-item_contacts
+                a(href="#").footer__menu-link Контакты
+                a(href="tel:+7(800)1234567").footer__phone.phone 8 800 123 45 67
+                a(href="mailto:lomoff.slaw@yandex.ru").footer__email.email E - mail
+                .footer__social
+                  a(href="#").footer__social-link
+                    img(src="../images/icons/footer__whatsapp.png", alt="").footer__social-img
+                  a(href="#").footer__social-link
+                    img(src="../images/icons/footer__vk.png", alt="").footer__social-img
+              

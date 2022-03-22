@@ -42,12 +42,17 @@ body {
 .section{
     padding-top: 40px;
 }
+.default-text{
+    font-size: 18px;
+    line-height: 25px;
+}
 .btn{
     padding: 13px 19px 13px 20px;
     background: transparent;
     border: 1px solid $blue;
     border-radius: 3px;
     color:$text;
+    white-space: nowrap;
     cursor: pointer;
     transition: all .5s ease-in-out;
     &:hover{
@@ -61,10 +66,144 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    &-desc{
+    &__desc{
       max-width: 983px;
       font-size: 18px;
       line-height: 25px;
       padding-right: 25px;
     }
   }
+.phone{
+    margin-bottom: 30px;
+    position: relative;
+    &::before{
+      content:"";
+      position: relative;
+      margin-right: 18px;
+      width: 21px;
+      height: 21px;
+      background: url(../images/icons/contact-phone.png);
+      background-color: transparent;
+      background-position: center;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      display: inline-block;
+    }
+}
+.email{
+    position: relative;
+    &::before{
+      content:"";
+      position: relative;
+      margin-right: 18px;
+      width: 21px;
+      height: 21px;
+      background: url(../images/icons/contact-email.png);
+      background-color: transparent;
+      background-position: center;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      display: inline-block;
+    }
+}
+.slideLeft{
+    animation-name:slide;
+    animation-duration: 1s;
+    animation-play-state: paused;
+    @keyframes slide {
+        from{
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+}
+.slideRight{
+    animation-name:slideRight;
+    animation-duration: 1s;
+    animation-play-state: paused;
+    @keyframes slideRight {
+        from{
+            transform: translateX(100px);
+            opacity: 0;
+        }
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+}
+.slideBottom{
+    animation-name:slideBottom;
+    animation-duration: 1s;
+    animation-play-state: paused;
+    @keyframes slideBottom {
+        from{
+            transform: translateY(100px);
+            opacity: .2;
+        }
+        to{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+}
+.start{
+    animation-play-state: running;
+}
+.slick-slider{
+    .slick-prev{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left:-20px;
+        z-index:99;
+        background-image: url(../images/icons/prev.png);
+        background-color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        width:55px;
+        border:none;
+        font-size: 0;
+        cursor: pointer;
+    }
+    .slick-next{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        right:-20px;
+        z-index:99;
+        background-image: url(../images/icons/next.png);
+        background-color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        width:55px;
+        border:none;
+        font-size: 0;
+        cursor: pointer;
+    }
+    .slick-dots{
+        left:0;
+        right:0;
+        display: none;
+        position: absolute;
+        justify-content: center;
+        & button{
+            background:$line;
+            border:none;
+            border-radius: 50%;
+            font-size: 0px;
+            width:17px;
+            height:17px;
+            margin:10px;
+            cursor: pointer;
+        }
+        .slick-active>button{
+            background: $blue;
+        }
+    }
+}
+
